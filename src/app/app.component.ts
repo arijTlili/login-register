@@ -9,9 +9,12 @@ export class AppComponent {
   title = 'project';
   reg_email:string="";
   reg_password:string='';
+  log_email:string="";
+  log_password:string='';
   reg_confirm_password:string='';
   reg_first_name:string='';
   reg_last_name:string='';
   reg_user_name:string='';
-  register(){}
+  register(){};
+  login(){}
 }
